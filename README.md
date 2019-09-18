@@ -1,0 +1,1 @@
+# springboot-encrypted-properties-jasypt

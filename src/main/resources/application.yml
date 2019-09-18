@@ -1,0 +1,8 @@
+itemconfig:
+  password: ENC(wXLeqHTYfDCRoDfaFh1GZVUh7KnklErv)
+
+
+jasypt:
+  encryptor:
+    bean: encryptorBean
+    password: ${JASYPT_ENCRYPTOR_PASSWORD:12345}
