@@ -46,8 +46,10 @@ public class SpringbootJaspytEncryptedPropertiesApplication implements CommandLi
         ItemConfig itemConfig = context.getBean(ItemConfig.class);
         PropertyService service = context.getBean(PropertyService.class);
 
-        LoggerFactory.getLogger(getClass()).info("ItemConfig: {}", itemConfig);
-        LoggerFactory.getLogger(getClass()).info("Propertservice itemconfig.password: {}", service.getPass());
+        LoggerFactory.getLogger(getClass()).info("ItemConfig string password: {}", itemConfig.getPassword());
+        LoggerFactory.getLogger(getClass()).info("ItemConfig integer password: {}", itemConfig.getIpassword());
+        LoggerFactory.getLogger(getClass()).info("Propertservice string password: {}", service.getPass());
+        LoggerFactory.getLogger(getClass()).info("Propertservice integer password: {}", service.getIpass());
     }
 }
 

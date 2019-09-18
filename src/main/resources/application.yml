@@ -1,5 +1,6 @@
 itemconfig:
   password: ENC(wXLeqHTYfDCRoDfaFh1GZVUh7KnklErv)
+  ipassword: ENC(oiEPnHGYcZCENpFjOUDljw==)
 
 
 jasypt:
